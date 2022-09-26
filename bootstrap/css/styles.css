@@ -1,0 +1,295 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    
+}
+#title{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom,#242582,#855da3);
+} 
+#title div{
+    margin-left: 470px;
+    margin-top: 175px;
+
+    
+} 
+
+#title img{
+    height: 95vh;
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    transform: rotate(346deg);
+    clip-path: ;
+    
+}
+
+
+
+#title .btn2{
+    border: none;
+    margin-left: 88px;
+    margin-top: 20px;
+    height: 60px;
+    width: 140px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#title .btn1{
+    border: none;
+    margin-left: 88px;
+    margin-top: 20px;
+    height: 60px;
+    width: 140px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#title h1{
+    font-size: 30px;
+    font-family: Poppins,sans-serif;
+    color: #efefef;
+}
+
+#title .btn2:hover{
+    transition: all 0.3s;
+    background-color: white;
+    color: black;
+}
+#title .btn1:hover{
+    transition: all 0.3s;
+    background-color: black;
+    color: white;
+}
+
+#title .btn1 i{
+    font-size: xx-large;
+    
+
+}
+#title .btn2 i{
+    font-size: xx-large;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 65px;
+    background: #242582;
+  }
+  nav ul{
+
+  }
+  nav li{
+    display: inline-block;
+    margin-top: 22px;
+    margin-right: 30px;
+  }
+  nav h1{
+    color: #f64c72;
+    margin: 0;
+    padding: 8px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+
+
+#features div{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    float: left;
+    height: 400px;
+    width: 32.9vw;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+#features i{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #f64c72;
+}
+#features h3{
+    font-family: sans-serif;
+}
+
+.slides{
+    width: 99vw;
+    margin-top: 350px;
+    background: #f64c72;
+    
+}
+.slides img{
+    border-radius: 50vw;
+    margin-left: 38vw;
+    width: 20vw;
+    
+}
+.slides h2{
+    color: #efefef;
+    text-align: center;
+    padding: 10px 80px;
+}
+
+
+#press{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #f64c72;
+    height: 150px;
+}
+#press img{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 10vw;
+    
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+
+.pricing1{
+    
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 32.7vw;
+    height: 55vh;
+    text-align: center;
+}
+.pricing1 button{
+    padding: 10px;
+    font-size: small;
+    height: 38px;
+    background-color: #bd99ff;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.pricing1 button:hover{
+    background: #c799eb;
+}
+
+
+
+
+.pricing2{
+    
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 32.7vw;
+    height: 55vh;
+    text-align: center;
+}
+.pricing2 button{
+    padding: 10px;
+    font-size: small;
+    height: 38px;
+    background-color: #bd99ff;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.pricing2 button:hover{
+    background: #c799eb;
+}
+
+
+
+
+.pricing3{
+    
+    
+    margin-top: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 32.7vw;
+    height: 55vh;
+    text-align: center;
+}
+.pricing3 button{
+    padding: 10px;
+    font-size: small;
+    height: 38px;
+    background-color: #bd99ff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.pricing3 button:hover{
+    background: #c799eb;
+}
+
+
+#cta{
+    height: 250px;
+    padding-top: 70px;
+    margin-top: 350px;
+    text-align: center;
+    background-color: #f64c72;
+}
+#cta button{
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 120px;
+    height: 75px;
+    border: none;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+#cta button:hover{
+    
+    background-color: #855da3;
+    border: none;
+}
+#cta i{
+    
+    font-size: xx-large;
+}
+
+#footer{
+
+    height: 70px;
+    text-align: center;
+    padding-top: 24px;
+    background-color: #242582;
+    color: white;
+}
